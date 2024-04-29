@@ -1,0 +1,187 @@
+<html>
+  <head>
+    <title>home</title>
+    <style>
+      /* CSS for the navigation bar */
+
+      .navbar {
+        background-color:rgb(255, 181, 52);
+        display: flex;
+        align-items: center;
+        font-family:consolas;
+        padding: 10px;
+      }
+      .nav-links{
+        display: flex;
+        gap: 40px;  
+      }
+      .navbar a{
+        color: #000000;
+        text-align: center;
+        text-decoration: none;
+        transition: 100ms;   
+      }
+
+      .navbar a:hover {
+        color: white;
+      }
+
+      .nav-links {
+        margin:0 300;
+      }
+
+      .icons img{
+        margin:0 15px ;
+
+      }
+
+      .mybutton{
+        background-color: #47d34c; /* Green background */
+            padding: 8px 15px;
+            border: none; 
+            border-radius: 50px; 
+            transition: all 0.5s ease-in-out;      
+      }
+      .myButton:hover {
+            background-color: #2ac040;
+      
+      }
+
+      .back{
+        position: relative;
+    width: 100%; 
+      }
+
+    .text{
+    position: absolute;
+    top: 56%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    color: rgb(11, 140, 76);
+    font-size: 100px;
+    font-family: Georgia;
+    text-align: left justify;
+    line-height: 1.2;
+  }
+
+  .explore{
+    background-color: #9fd30fbd; /* Green background */
+            padding: 8px 20px 20px;
+            border-radius: 50px;  
+            font-size: 50px;
+            letter-spacing: 2px;
+            text-decoration: none;
+            font-family: consolas;
+    }
+
+  .content {
+    padding: 4%;
+    margin: 2%;    
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    gap: 2rem;
+    align-items: center;
+    
+  }
+
+section {
+    padding: 18px 11% 10px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+    
+ footer{
+  background: rgb(193, 242, 176);
+  text-align: left;
+ }
+
+ .end{
+  text-align: center;
+  padding: 20px;
+  }
+
+  .follow{
+    padding: 4%;
+    margin: 2%;    
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+    align-items: center;
+    display: flex;
+  }
+
+    </style>
+  </head>
+  <body>
+    
+    <!-- Navigation bar -->
+    <div class="navbar">
+      <img src="logo.png">
+
+      <div class="nav-links">
+        <a href="" class="nav-button">Home</a>
+        <a href="" class="nav-button">Products</a>
+        <a href="" class="nav-button">Blog</a>
+        <a href="" class="nav-button">Research</a>
+        <a href="" class="nav-button">About</a>
+      </div>
+      <div class="icons">
+        <img src="search.png" width="29">
+        <img src="account.png" width="25">
+        <button class="mybutton" id="myButton"><img src="cart.png" width="25" alt="Button Image">
+        </button>
+        
+      </div>
+    </div>
+    <img class="back" src="bg_1-transformed.jpeg" style="
+    width:100%; 
+    height:100%;
+    ">
+    <div class="text">
+    Eat your veggies cunts.<br><br>
+    <a href="#" class="explore">Explore</a>
+    </div>
+    <footer>
+      <section class="foot">
+        <div class="content">
+          <h3>Policy Info</h3>
+          <li>Cancle and Refund</li>
+          <li>Privacy Policy</li>
+          <li>Terms and Conditions</li>
+          <li>Security</li>
+        </div>
+
+        <div class="content">
+          <h3>Quick Links</h3>
+          <li>Home</li>
+          <li>Blog</li>
+          <li>Product</li>
+          <li>Research</li>
+          <li>About Us</li>
+        </div>
+
+        <div class="content">
+          <h3>Company Info</h3>
+          <li>About US</li>
+          <li>Code Of Conduct</li>
+          <li>follow us</li>
+          <img src="insta.png" width="60px" height="60px">
+          <img src="fb.png" width="60px" height="60px">
+          <img src="tt.png" width="60px" height="60px">
+        </div>
+
+    
+      </section>
+      <div class="end">
+        ©2024 All Right Reserved By GreenGrub
+      <div>
+    </footer>
+
+  </body>
+</html>
